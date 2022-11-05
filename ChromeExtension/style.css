@@ -1,5 +1,9 @@
 body {
-    background-color: black;
+    background-color: #ff3333;
+}
+
+h1{
+    font-size: 50px;
 }
 
 div {
@@ -13,7 +17,7 @@ div {
     pointer-events: none;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: fit-content;
     z-index: -1;
   }
   
