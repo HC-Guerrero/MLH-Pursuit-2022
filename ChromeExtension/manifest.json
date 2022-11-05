@@ -2,8 +2,9 @@
     "name": "Christmas Extension",
     "version": "0.01",
     "description": "Save all your chirstmas desires",
-    "chrome_url_overrides": {
-        "newtab": "popup.html"
-    },
-    "manifest_version": 2
+	"action": {
+		"default_title": "Christmas Extension",
+		"default_popup": "popup.html"
+	},
+    "manifest_version": 3
 }
