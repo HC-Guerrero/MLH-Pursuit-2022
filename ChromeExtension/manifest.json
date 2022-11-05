@@ -2,12 +2,12 @@
     "name": "Christmas Extension",
     "version": "0.01",
     "description": "Save all your chirstmas desires",
-	"action": {
-		"default_title": "Christmas Extension",
-		"default_popup": "popup.html"
-	},
+  "action": {
+    "default_title": "Christmas Extension",
+    "default_popup": "popup.html"
+  },
     "permissions": [
         "tabs"
         ],
     "manifest_version": 3
-}
+  }

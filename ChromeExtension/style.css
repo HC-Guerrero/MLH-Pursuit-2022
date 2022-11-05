@@ -1,9 +1,28 @@
+@keyframes stretch {
+    0% {
+        transform: scale(.5);
+        background-color: green;
+        /* border-radius: 100%; */
+    }
+
+    50% {
+        background-color: white;
+    }
+
+    100% {
+        transform: scale(2.0);
+        background-color: red;
+    }
+}
+
+
 body {
     background-color: #ff3333;
 }
 
 h1{
     font-size: 50px;
+    color: aliceblue;
 }
 
 div {
@@ -24,4 +43,33 @@ div {
   section {
     padding: 50px;
     width: 300px;
+  }
+
+  ul {
+    font-size: 25px;
+    color: aliceblue;
+  }
+
+  a {
+    text-decoration: none;
+    color: aliceblue;
+    
+  }
+
+  a:hover {
+    color: black;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    background-color: red;
+    animation-name: stretch;
+    animation-duration: 2.0s;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+  }
+
+  .form{
+    display: flex;
   }
